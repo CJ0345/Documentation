@@ -63,8 +63,6 @@
 
 To set up and run the Kakanin Hub program, please follow these steps:
 
-Sure! Here's a simple step-by-step guide to import the database, install necessary libraries, and start the program:
-
 ### Step 1: Import and Start the Premade Database
 1. **Ensure MySQL is Installed:**
    - Make sure you have MySQL installed and running. If not, download and install it from [MySQL official website](https://www.mysql.com/).
