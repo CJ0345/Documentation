@@ -1,5 +1,5 @@
-# <p align="center"> &nbsp;&nbsp;&nbsp;&nbsp; Kakanin Hub: <p>
-## <p align="center"> Streamlined Ordering and Inventory System <p>
+# <p align="center"> &nbsp;&nbsp;&nbsp;&nbsp; Kakanin Hub: </p>
+## <p align="center"> Streamlined Ordering and Inventory System </p>
 
 # I. PROJECT OVERVIEW
 
