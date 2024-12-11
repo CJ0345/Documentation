@@ -63,52 +63,14 @@
 
 To set up and run the Kakanin Hub program, please follow these steps:
 
-### Step 1: Import and Start the Premade Database
-1. **Ensure MySQL is Installed:**
-   - Make sure you have MySQL installed and running. If not, download and install it from [MySQL official website](https://www.mysql.com/).
-
-2. **Create the Database and Table:**
-   - Open your MySQL command line or MySQL Workbench.
-   - Execute the following commands to set up the database and table:
-     ```
-     CREATE DATABASE kakanin_hub;
-     USE kakanin_hub;
-
-     CREATE TABLE users (
-         id INT AUTO_INCREMENT PRIMARY KEY,
-         email VARCHAR(255) UNIQUE NOT NULL,
-         password VARCHAR(255) NOT NULL,
-         role VARCHAR(50) NOT NULL
-     );
-     ```
-
-### Step 2: Download and Install Required Libraries
-1. **Open your Terminal or Command Prompt:**
-   - Ensure you have Python installed. If not, download it from [python.org](https://www.python.org/).
-
-2. **Install Libraries:**
+### Step 1: Download and Install Required Libraries
+ **Install Libraries:**
    - Run the following command to install all necessary libraries:
      ```
      pip install tkinter bcrypt mysql-connector-python customtkinter
      ```
 
-### Step 3: Set Up the Database Connection
-1. **Configure Database Connection in `db_connection.py`:**
-   - Ensure the file has the correct MySQL connection details:
-     ```
-     import mysql.connector
-
-     class Database:
-         def get_db_connection(self):
-             return mysql.connector.connect(
-                 host="your_host",
-                 user="your_user",
-                 password="your_password",
-                 database="kakanin_hub"
-             )
-     ```
-
-### Step 4: Start the Kakanin Hub Program
+### Step 2: Start the Kakanin Hub Program
 1. **Place All Python Files Together:**
    - Ensure login.py, admin_page.py, customer_dashboard.py, and db_connection.py are in the same directory.
 
@@ -117,9 +79,8 @@ To set up and run the Kakanin Hub program, please follow these steps:
    - Navigate to the directory containing these files.
    - Run the application with:
      python login.py
-     
-
-### Step 5: Using the Application
+    
+### Step 3: Using the Application
 1. **Login and Signup:**
    - When you run the program, the login interface will appear.
    - If you're a new user, click "Signup" to create an account and fill in the required details.
@@ -129,6 +90,4 @@ To set up and run the Kakanin Hub program, please follow these steps:
    - **Admin:** Use the credentials `admin@gmail.com` and `admin123` to log in as an admin.
    - **Customer:** Log in with a customer account to access the customer dashboard.
 
-
-This should help you get started with the Kakanin Hub program. 
 
