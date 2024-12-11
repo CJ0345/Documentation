@@ -57,37 +57,38 @@
 # III. SUSTAINABLE DEVELOPMENT GOAL (SDG)
 <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;The Kakanin Hub project integrates Sustainable Development Goal (SDG) 8 through its features and functionalities. It serves as a platform for small businesses, enabling them to transition into the digital space, thereby empowering them to reach wider audiences and enhance their market presence. Through the AdminPage and CustomerPage features, the app facilitates efficient management of users, data, and orders, ensuring streamlined business operations while promoting accessibility and customer satisfaction. By fostering customer engagement and driving revenue, the application supports economic participation. Its robust authentication and secure database practices build trust with users, ensuring the safety of user data through password hashing, which promotes trust and reliability in the platform. Additionally, the application lays the foundation for further development of similar projects, promoting skills and technological literacy for developers and entrepreneurs. Future potential for further integration includes offering features for business analytics, supporting entrepreneurs with tools like order management and customer feedback, and introducing features for collaboration with local producers. Integration with SDG 12 involves incorporating sustainable practices such as promoting locally sourced products and reducing waste in the business process. Overall, the project supports small-scale businesses while aligning with broader sustainable development objectives by fostering growth, inclusivity, and security.</p>
 
-# IV. INSTRUCTION FOR RUNNING THE PROGRAM/SYSTEM
+# IV. Instructions for Running the Kakanin Hub Program
 
-### Instructions for Running the Kakanin Hub Program
+**Run the program.**
+   - First things first, make sure everything is set up correctly. Check for any errors and ensure the program runs smoothly.
 
-To set up and run the Kakanin Hub program, please follow these steps:
+**Enter your command choice.**
+   - Once the program is running, you'll see a menu with several options. Here's what each one does:
 
-### Step 1: Download and Install Required Libraries
- **Install Libraries:**
-   - Run the following command to install all necessary libraries:
-     ```
-     pip install tkinter bcrypt mysql-connector-python customtkinter
-     ```
+   • **Login and Signup:**
+     - When you start the program, you'll see the login screen. If you're new, click "Signup" and fill out the details. Once registered, you'll see a message saying, "Account registered successfully." Then, log in using your new credentials.
 
-### Step 2: Start the Kakanin Hub Program
-1. **Place All Python Files Together:**
-   - Ensure login.py, admin_page.py, customer_dashboard.py, and db_connection.py are in the same directory.
+   • **Admin Dashboard:**
+     - Log in using the admin credentials (`admin@gmail.com` and `admin123`). This will take you to the admin dashboard, where you can manage users, view order histories, and handle inventory. You'll see a "Admin logged in successfully" message.
 
-2. **Run the Application:**
-   - Open your terminal or command prompt.
-   - Navigate to the directory containing these files.
-   - Run the application with:
-     python login.py
-    
-### Step 3: Using the Application
-1. **Login and Signup:**
-   - When you run the program, the login interface will appear.
-   - If you're a new user, click "Signup" to create an account and fill in the required details.
-   - Log in using your credentials.
+   • **Customer Dashboard:**
+     - If you log in with a customer account, you'll access the customer dashboard. Here, you can place orders, track them, manage your account details, and view your order history. A "Customer logged in successfully" message will confirm your login.
 
-2. **Admin and Customer Roles:**
-   - **Admin:** Use the credentials `admin@gmail.com` and `admin123` to log in as an admin.
-   - **Customer:** Log in with a customer account to access the customer dashboard.
+   • **Manage Inventory:**
+     - As an admin, you can add new products, update existing ones, and view the entire inventory. Select the appropriate option to manage your inventory, and you'll see a "Inventory updated successfully" message.
+
+   • **Order Management:**
+     - In the customer dashboard, you can place orders for the available kakanin. Choose the item you want, specify the quantity, and complete your order. The system will update the inventory automatically. A "Order placed successfully" message will appear once you're done.
+
+   • **View Order History:**
+     - Both admins and customers can view the order history to track past transactions. This feature gives you detailed information about previous orders. When you use this option, you'll see an "Order history displayed successfully" message.
+
+   • **Exit:**
+     - When you're done, you can exit the program by selecting the exit option. The console will close, and you can restart the program if needed. A message saying, "Program exited successfully" will confirm the exit.
+
+**Exit the console.**
+   - Choosing the exit option will automatically close the program. If you need to use it again, simply run the program to start over.
+
+
 
 
