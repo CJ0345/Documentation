@@ -57,7 +57,7 @@
 # III. SUSTAINABLE DEVELOPMENT GOAL (SDG)
 <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;The Kakanin Hub project integrates Sustainable Development Goal (SDG) 8 through its features and functionalities. It serves as a platform for small businesses, enabling them to transition into the digital space, thereby empowering them to reach wider audiences and enhance their market presence. Through the AdminPage and CustomerPage features, the app facilitates efficient management of users, data, and orders, ensuring streamlined business operations while promoting accessibility and customer satisfaction. By fostering customer engagement and driving revenue, the application supports economic participation. Its robust authentication and secure database practices build trust with users, ensuring the safety of user data through password hashing, which promotes trust and reliability in the platform. Additionally, the application lays the foundation for further development of similar projects, promoting skills and technological literacy for developers and entrepreneurs. Future potential for further integration includes offering features for business analytics, supporting entrepreneurs with tools like order management and customer feedback, and introducing features for collaboration with local producers. Integration with SDG 12 involves incorporating sustainable practices such as promoting locally sourced products and reducing waste in the business process. Overall, the project supports small-scale businesses while aligning with broader sustainable development objectives by fostering growth, inclusivity, and security.</p>
 
-### IV. Instructions for Running the Kakanin Hub Program
+# IV. INSTRUCTIONS FOR RUNNING THE Kakanin Hub Program
 
 #### 1. Set Up the Database
    - **Navigate to the program files:** Open the `database` folder in the program files.
@@ -76,8 +76,7 @@
    - **Run the script:** Execute *Login* to start the program.
 
 ### Important Notes:
-Within the Kakanin Hub Database, there are pre-existing data used for demonstrating the functionality of the software. Use the following credentials to access the demo data:
-
+ This will take you to the admin dashboard:
 - **Username:** *admin@gmail.com*
 - **Password:** *admin123*
 
