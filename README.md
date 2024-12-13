@@ -4,76 +4,74 @@
 # I. PROJECT OVERVIEW
 
 ### Rationale
-<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; Kakanin Hub was conceived to address the unique challenges faced by Filipino rice cake (kakanin) businesses. Traditional kakanin makers often struggle with manual processes that lead to inefficiencies, such as managing orders, tracking inventory, and maintaining customer information. By leveraging modern technology, Kakanin Hub aims to streamline these operations, reduce waste, and enhance customer satisfaction, thereby preserving the authenticity of Filipino rice cakes while embracing innovative practices.</p>
 
-### Scope and Limitation
-<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;Kakanin Hub encompasses various functionalities aimed at streamlining the operations of kakanin businesses. It simplifies order management, tracks inventory levels in real-time, and manages customer information, providing an intuitive user interface that enhances workflow efficiency and customer satisfaction. However, the platform does have some limitations, including the necessity of a reliable internet connection and basic technological infrastructure for optimal functionality. Additionally, while it offers a wide range of features, highly specific customizations may require further development. Users might also face an initial learning curve, particularly if they are not technologically inclined. Despite these challenges, Kakanin Hub is a powerful tool for modernizing traditional kakanin businesses.</p>
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbspKakanin Hub is more than just a management system; it's a lifeline for Filipino rice cake (kakanin) businesses. These traditional sweets are a beloved part of Filipino culture, but the small-scale producers who make them often face significant challenges due to outdated manual processes. Kakanin Hub steps in to address these issues, offering a streamlined solution that simplifies ordering, tracks inventory, and provides real-time updates on product availability. This ensures that kakanin producers can efficiently meet customer demand. By integrating modern digital tools, Kakanin Hub preserves the cultural heritage of Filipino rice cakes while bringing innovation to the production and distribution process. It's designed specifically to help small to medium-sized kakanin businesses reduce waste, improve workflow, and enhance the overall customer experience.</p>
 
-### Goal and Target
-<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; The primary goal of Kakanin Hub is to modernize the operations of kakanin businesses by integrating technology into their traditional processes, thereby improving efficiency, reducing waste, and elevating customer experience. The platform is designed for traditional kakanin makers who wish to modernize their business operations, as well as new entrepreneurs entering the kakanin market. It aims to support small to medium-sized kakanin businesses that value both tradition and innovation, ensuring a smooth and efficient operation from the outset.</p>
+### Scope and Limitations
+
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbspKakanin Hub focuses on automating essential operations for kakanin businesses, making everyday tasks more manageable and efficient. The system includes features such as order management, which simplifies how orders are processed and tracked, ensuring accuracy and efficiency. Inventory tracking provides real-time updates on inventory levels to help minimize waste and ensure products are available when needed. Customer data management stores and manages customer information to enhance engagement and provide personalized services. Additionally, the user-friendly interface is designed with ease of use in mind, making it simple for users to manage orders and view order history. However, the system does not manage employee payroll, accounting tasks, or offer advanced business analytics and reporting tools. It also lacks direct support for e-commerce integration. These limitations mean the primary focus is on improving operational efficiency and customer satisfaction for kakanin producers, rather than handling all aspects of business operations.</p>
+
+### Goals and Targets
+
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbspThe primary goal of Kakanin Hub is to bring Filipino kakanin businesses into the modern era with a user-friendly and efficient management platform. By implementing real-time inventory monitoring, the project aims to reduce product waste by 50% within the first year of operation. Automated tracking and management tools are expected to improve order fulfillment accuracy by 80%, ensuring that customer orders are handled more efficiently and accurately. Furthermore, by offering personalized order histories and updates, Kakanin Hub aims to enhance customer retention within six months of deployment. These targets are designed to help kakanin makers maintain the authenticity of their traditional products while equipping them with the tools needed to stay competitive in today’s market.</p>
+
+
+
+
+
 
 # II. PYTHON CONCEPTS AND LIBRARIES
 
-### Python Concepts
+### Python Tkinter
 
- ### Classes and Objects:
-  &nbsp;&nbsp;&nbsp;&nbsp; The script defines a Login class that inherits from ctk.CTk. This class encapsulates the functionality of the login and signup interface. Methods like __init__, create_login_frame, create_signup_frame, signup, and login define the behavior of the Login class.
+<p align="justify"> &nbsp;&nbsp;&nbsp;Python Tkinter is a standard graphical user interface library available in Python that provides access to widgets such as labels, buttons, and frames. In this program, the Tkinter library was primarily used for GUI applications, including creating labels, frames, and input fields. The `ttk` module within the Python Tkinter library was also utilized to enhance the appearance of widgets, particularly for displaying data in a tree-like structure using the Treeview widget.</p>
 
-### Functions:
-   &nbsp;&nbsp;&nbsp;&nbsp; Methods within the class (create_login_frame, create_signup_frame, signup, login) are defined using the def keyword. These methods perform specific tasks related to the login and signup process.
+### CustomTkinter
 
- ### Conditionals:
-   &nbsp;&nbsp;&nbsp;&nbsp; The script uses conditional statements (if, else, elif) to check conditions and execute corresponding code blocks, such as verifying if fields are filled out or if passwords match.
+<p align="justify"> &nbsp;&nbsp;&nbsp;CustomTkinter is an advanced UI library based on Tkinter that offers more modern and customizable widgets. This library was extensively used throughout the program to create sleek and polished graphical interfaces. CustomTkinter provides a wide range of customization options, allowing developers to design unique and visually appealing GUIs. Its compatibility with the default Tkinter elements ensures seamless integration, making it an ideal choice for modern GUI development.</p>
 
- ### Error Handling:
-   &nbsp;&nbsp;&nbsp;&nbsp;Error handling is implemented using try-except blocks to catch and handle exceptions that may occur during database operations.
+### MySQL
 
- ### GUI Elements:
-  &nbsp;&nbsp;&nbsp;&nbsp; The script creates and manages graphical user interface (GUI) elements like frames, labels, entries, and buttons using the customtkinter library.
+<p align="justify"> &nbsp;&nbsp;&nbsp;The program utilizes the *mysql.connector* library to handle MySQL queries and connections. This library offers a comprehensive set of tools for establishing connections to a MySQL database, executing SQL queries, and managing database transactions. The MySQL library is crucial for the program's functionality, enabling efficient data retrieval and storage. By leveraging this library, the program ensures secure and reliable interaction with the database, supporting various operations such as user authentication, order management, and inventory tracking.</p>
 
-### Python Libraries
 
- ### Tkinter:
-   &nbsp;&nbsp;&nbsp;&nbsp; tkinter is a standard Python library used for creating GUIs. It provides various widgets like labels, buttons, and entries to create interactive interfaces.
-
- ### Customtkinter (ctk):
-   &nbsp;&nbsp;&nbsp;&nbsp; customtkinter is an enhanced version of tkinter that provides modern themes and styles. It allows for better customization and a more polished look for the GUI.
-
- ### Messagebox:
-   &nbsp;&nbsp;&nbsp;&nbsp; Part of tkinter, messagebox is used to display various types of message boxes (error, info, warning) to interact with users.
-
- ### Bcrypt:
-   &nbsp;&nbsp;&nbsp;&nbsp; bcrypt is a library for hashing passwords. It ensures that passwords are securely hashed before being stored in the database, enhancing security.
-
- ### Mysql.connector:
-   &nbsp;&nbsp;&nbsp;&nbsp; mysql.connector is a library for connecting to MySQL databases from Python. It allows for executing SQL queries and interacting with the database.
-
- ### Database Connection:
-   &nbsp;&nbsp;&nbsp;&nbsp; The script imports a custom Database class from db_connection, which is likely designed to handle database connections and interactions.
-
- ### Admin and Customer Pages:
-   &nbsp;&nbsp;&nbsp;&nbsp; AdminPage and CustomerPage are imported from admin_page and customer_dashboard, respectively. These likely define the interfaces and functionalities for admin and customer roles.
 
 # III. SUSTAINABLE DEVELOPMENT GOAL (SDG)
 <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;The Kakanin Hub project integrates Sustainable Development Goal (SDG) 8 through its features and functionalities. It serves as a platform for small businesses, enabling them to transition into the digital space, thereby empowering them to reach wider audiences and enhance their market presence. Through the AdminPage and CustomerPage features, the app facilitates efficient management of users, data, and orders, ensuring streamlined business operations while promoting accessibility and customer satisfaction. By fostering customer engagement and driving revenue, the application supports economic participation. Its robust authentication and secure database practices build trust with users, ensuring the safety of user data through password hashing, which promotes trust and reliability in the platform. Additionally, the application lays the foundation for further development of similar projects, promoting skills and technological literacy for developers and entrepreneurs. Future potential for further integration includes offering features for business analytics, supporting entrepreneurs with tools like order management and customer feedback, and introducing features for collaboration with local producers. Integration with SDG 12 involves incorporating sustainable practices such as promoting locally sourced products and reducing waste in the business process. Overall, the project supports small-scale businesses while aligning with broader sustainable development objectives by fostering growth, inclusivity, and security.</p>
 
 # IV. INSTRUCTIONS FOR RUNNING THE Kakanin Hub Program
 
-#### 1. Set Up the Database
-   - **Navigate to the program files:** Open the `database` folder in the program files.
-   - **Import the database:** Select the *kakanin_hub* file and import it using phpMyAdmin.
-   - **Start the MySQL database:** Use your XAMPP Control Panel to start the MySQL database.
+# Kakanin Hub Setup Guide
 
-#### 2. Install Dependencies
-   - **Open the terminal or command prompt:**
-   - **Navigate to the project directory:** 
-   - **Install necessary Python packages:**
-     
-   &nbsp;&nbsp;&nbsp;&nbsp; *pip install customtkinter bcrypt mysql-connector-python*
-     
+## 1. Set Up the Database
+1. **Navigate to the program files:**
+   - Open the directory where the *kakanin_hub* database file is located.
 
-#### 3. Start the Program
-   - **Run the script:** Execute *Login* to start the program.
+2. **Import the database using phpMyAdmin:**
+   - Open phpMyAdmin.
+   - Log in with your MySQL credentials.
+   - Select the Databases tab and create a new database or select an existing one.
+   - Use the Import tab to upload and import the *kakanin_hub* database file into the selected database.
+
+3. **Start the MySQL database using XAMPP:**
+   - Open your XAMPP Control Panel.
+   - Start the MySQL service. It should show as running once started.
+
+## 2. Install Dependencies
+1. **Open the terminal or command prompt:**
+   - On Windows, you can open Command Prompt (cmd) or PowerShell.
+
+2. **Navigate to the project directory.**
+
+3. **Install necessary Python packages:**
+   - Run the following command to install the required dependencies:
+
+*pip install customtkinter bcrypt mysql-connector-python*
+  
+
+## 3. Start the Program
+1. **Run the script:**
+   - Execute *login.py*.
 
 ### Important Notes:
  This will take you to the admin dashboard:
